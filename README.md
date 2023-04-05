@@ -18,7 +18,7 @@ arranged_problems = arithmetic_arranger(problems, show_result=True)
 print(arranged_problems)
 ```
 
-###Este ejemplo producirá la siguiente salida:
+### Este ejemplo producirá la siguiente salida:
 ```
   32      3801      45      123    
 + 698    -    2    + 43    +  49    
@@ -26,7 +26,7 @@ print(arranged_problems)
  7301      3799      88      172    
 ```
 
-###Si el parámetro show_result se establece en False, la salida se verá así:
+### Si el parámetro show_result se establece en False, la salida se verá así:
 ```
   32      3801      45      123    
 + 698    -    2    + 43    +  49    
