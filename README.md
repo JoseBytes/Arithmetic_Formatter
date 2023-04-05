@@ -1,11 +1,17 @@
-## arithmetic_arranger
+## Proyecto Arithmetic Arranger
 
-La función `arithmetic_arranger()` toma una lista de problemas aritméticos y devuelve una cadena formateada que los muestra uno encima del otro. Cada problema consta de dos operandos y un operador (+ o -). La función también puede mostrar el resultado de cada problema si se establece el parámetro `show_result` en `True`.
+Este proyecto consiste en una función llamada `arithmetic_arranger` que recibe una lista de problemas aritméticos en formato de cadena y devuelve las cadenas formateadas para que los problemas estén correctamente alineados.
 
-### Parámetros
+La función puede recibir una lista de hasta 5 problemas. Cada problema debe estar en formato de cadena y solo puede contener números enteros de un máximo de 4 dígitos y los operadores `+` y `-`. Cada problema debe estar separado por coma en la lista.
 
-- `problems` (requerido): Una lista de problemas aritméticos.
-- `show_result` (opcional): Un valor booleano que indica si mostrar o no el resultado de cada problema. El valor predeterminado es `False`.
+La función devolverá una cadena con los problemas formateados de la siguiente manera:
+- El primer operando estará alineado a la derecha.
+- El segundo operando estará alineado a la derecha debajo del primero.
+- El operador estará alineado a la derecha debajo del segundo operando.
+- El guión (-) estará alineado a la derecha debajo del operador.
+- Si el argumento `show_result` es `True`, se mostrará el resultado de cada problema alineado a la derecha debajo del guión.
+
+Si la función recibe operandos o operadores no válidos o si se supera el número máximo de problemas, devolverá un mensaje de error.
 
 ### Ejemplo de uso
 
